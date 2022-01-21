@@ -112,7 +112,6 @@ if tomar_dato == '1':
     print( 'Puesto: ' + str(nuevoempleado.obtener_puesto_emp() ))
     print( 'Sueldo Quincenal: ' + str(nuevoempleado.obtener_sueldo_qna_horas() ))
 
-
 elif tomar_dato == '2':
     nuevoempleado = EmpAsalariado()
     
@@ -131,7 +130,7 @@ elif tomar_dato == '2':
     print( 'Por favor Ingresa su salario Mensual' )
     tomar_sueldo = int(input())
     nuevoempleado.establecer_sueldo_mensual(tomar_sueldo)
-    
+
     nuevoempleado.calcular_sueldo_qna_asal()
     
     print( 'Resultado: ' )
