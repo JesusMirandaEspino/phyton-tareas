@@ -37,10 +37,10 @@ class calculadora:
         
         self.ingresar_numeros()
         try:
-            divicion = self.num1 / self.num2
-            print("el resultado de la divición es: ", divicion)
+            division = self.num1 / self.num2
+            print("el resultado de la división es: ", division)
         except (ZeroDivisionError, TypeError) as error:
-            print('No se puede dividir entre cero, o  hacer una divicion con un string incluido', error)
+            print('No se puede dividir entre cero, o  hacer una division con un string incluido', error)
             print('Intenta dividir entre un numero mayor a cero')
 
     def salir(self):
